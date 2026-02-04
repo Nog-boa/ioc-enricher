@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ioc-enricher
+Version: 0.1.0
+Summary: IOC enrichment tool
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31
+Requires-Dist: python-dotenv>=1.0
+Provides-Extra: test
+Requires-Dist: pytest>=7.4; extra == "test"
+
+# IOC Enricher
+
+CLI tool to enrich IOCs (ip, domain, url, hash) using VirusTotal.
